@@ -3,17 +3,18 @@
 
 <body>
 
-    <h2>HTML Forms</h2>
-    
-    <form action="/action_page.php">
-        <label for="fname">Primeiro nome:</label><br>
-        <input type="text" id="fname" name="fname" value="Lauren"><br>
-        <label for="lname">Sobrenome:</label><br>
-        <input type="text" id="lname" name="lname" value="Gonçalves"><br><br>
-        <input type="submit">
-    </form>
+    <h2>Checkboxes</h2>
+    <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
 
-    <p>If you click the "Submit" button, the form-data will be sent to a page called “/action_page.php".</p>
+    <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
 
 </body>
 
